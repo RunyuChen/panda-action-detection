@@ -1,0 +1,1 @@
+python ./detect_img.py --config ./config/faster_rcnn_r101_fpn_mstrain_3x_voc.py --checkpoint ./checkpoint/det_fasterRcnn.pth --img /root/autodl-tmp/dataset/VOC2007/test  --out-dir /root/autodl-tmp/dataset/VOC2007/test_det --output-yolo g
