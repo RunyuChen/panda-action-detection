@@ -34,4 +34,8 @@ bash detect_img.sh
 ```
 python demo/detect.py --config configs/detection/ava/myslowfast.py --checkpoint /home/ubuntu/panda_videofile/best_mAP@0.5IOU_epoch_19.pth --det-config demo/faster_rcnn_r50_fpn_2x_coco.py  --det-config demo/faster_rcnn_r50_fpn_2x_coco.py（替换为新的检测配置文件） --det-checkpoint /home/ubuntu/LSQ/detection2/mmaction2_YF/Checkpionts/mmdetection/faster_rcnn_r50_fpn_2x_coco_bbox_mAP-0.384_20200504_210434-a5d8aa15.pth（替换成新的检测模型）   --video /home/ubuntu/panda_videofile/long.mp4  --out-filename /home/ubuntu/panda_videofile/long_det.mp4   --det-score-thr 0.2 --action-score-thr 0.2 --output-stepsize 8 --predict-stepsize 30  --output-fps 6 --label-map tools/data/ava/label_map2.txt
 ```
+## 4 prefix_label_json.py
+
+通过action_class.txt中的映射关系，对json文件中每一帧的行为属性进行赋值
+
 
