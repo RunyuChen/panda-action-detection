@@ -1,5 +1,4 @@
 # panda-action-detection
-chenrunyu59@gmail.com
 
 采用FasterRcnn + slowfast进行动作检测
 
